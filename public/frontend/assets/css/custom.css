@@ -1,0 +1,172 @@
+.bodyColor {
+    background-color: #f3f2ef !important
+}
+
+.cat_br_bg {
+    background-color: #FFFFFF;
+    border-radius: 11px;
+    border: 1px solid #dddddd
+}
+
+
+.product-image-style {
+    height: 360px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.select-cat {
+    border-right: 0;
+}
+
+.comment-body {
+    background: #f3f2ef;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+}
+.comment-body h6 {
+    font-weight: bold;
+    font-size: 16px;
+}
+.comment-body p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.comment-table, .reply-table {
+    width: 100%;
+}
+
+table.reply-table tr td,
+table.comment-table tr td {
+    vertical-align: top;
+}
+
+.like-reply  {
+    margin-bottom: 15px;
+}
+.like-reply ul {
+    list-style-type: none;
+}
+.like-reply ul li {
+    display: inline-block;
+}
+.comment-table img{
+    min-width: 64px;
+}
+.reply-table img{
+    min-width: 48px !important;
+}
+
+
+
+/*rating design */
+
+.cross {
+    padding: 10px;
+    color: #ffd504;
+    cursor: pointer;
+    font-size: 23px
+}
+
+.cross i {
+    margin-top: -5px;
+    cursor: pointer
+}
+
+.send {
+    color: #fff;
+    background-color: #002A5C;
+    border-color: #002A5C
+}
+
+.send:hover {
+    color: #fff;
+    background-color: #002A5C;
+    border-color: #002A5C
+}
+
+.rating {
+    display: inline-flex;
+    margin-top: -10px;
+    flex-direction: row-reverse
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 28px;
+    font-size: 35px;
+    color: #ffd504;
+    cursor: pointer;
+}
+.cursor_pointer_none>label{
+    cursor: context-menu!important;
+}
+
+.hover_add_full_star>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+.rating_count{
+    font-size: 15px!important;
+}
+.star_size {
+    width: 21px!important;
+    font-size: 21px!important;
+}
+.star_default_color{
+    color: #bfbfbf!important;
+}
+
+.product_details_and_rating{
+    background-color: #102348;
+}
+.home_product_rating {
+    padding: 10px 15px 4px 10px;
+}
+.home_product_rating:hover {
+    text-decoration: none;
+    background-color: #103276;
+}
+
+.feature-items_shop {
+    text-transform: uppercase;
+    padding: 10px 0px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px!important;
+    margin: 0;
+}

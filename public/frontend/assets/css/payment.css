@@ -1,0 +1,254 @@
+
+h1 {
+    font-size: 22px !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+h2 {
+    font-size: 18px !important;
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+}
+h5 {
+    font-size: 12px !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+p {
+    font-size: 14px !important;
+    font-family: "Roboto", sans-serif;
+}
+
+.devit,
+.install,
+.bkash,
+.money {
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.devit:hover,
+.install:hover,
+.bkash:hover,
+.money:hover {
+    height: 135px;
+    width: 130px;
+}
+a.payment_btn {
+    padding: 13px 100px;
+    background: #f36e36;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+a.payment_btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #d67246;
+}
+.devit_img,
+.install_img,
+.bkash_img,
+.money_img {
+    width: 45px;
+    height: 40px;
+}
+.devit_text,
+.install_text,
+.bkash_text,
+.money_text {
+    margin-top: 15px;
+}
+.payment_para {
+    background: #fff;
+    padding: 40px 60px;
+}
+.sum {
+    background: #fff;
+    padding: 40px 20px;
+}
+.payment_para > p {
+    margin-bottom: 50px;
+}
+.subtotal_text {
+    font-size: 12px;
+    margin-right: 34px;
+    margin-top: 10px;
+}
+.subtotal_price {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.total_text {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-right: 137px;
+}
+.total_price {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #f36e36;
+}
+
+@media screen and (max-width: 992px) {
+    .sum {
+        margin-top: 50px;
+    }
+    .sum > div {
+        margin: 0 100px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .subtotal_text {
+        font-size: 9px;
+        margin-right: 25px;
+        margin-top: 10px;
+    }
+    .subtotal_price {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .total_text {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-right: 25px;
+    }
+    .total_price {
+        font-size: 17px;
+        margin-top: 10px;
+        font-weight: 500;
+        color: #f36e36;
+    }
+}
+@media screen and (max-width: 511px) {
+    .devit_img,
+    .install_img,
+    .bkash_img,
+    .money_img {
+        width: 35px;
+        height: 30px;
+    }
+    h5 {
+        font-size: 9px !important;
+    }
+}
+@media screen and (max-width: 405px) {
+    h5 {
+        font-size: 7px !important;
+    }
+}
+@media screen and (max-width: 425px) {
+    a.payment_btn {
+        padding: 8px 50px;
+        background: #f36e36;
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
+
+#exTab1 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+
+#exTab2 h3 {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+    border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+
+ul, li, div {
+    background: hsla(0, 0%, 0%, 0);
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font: 13px/20px "Droid Sans", Arial, "Helvetica Neue", "Lucida Grande", sans-serif;
+    text-shadow: 0 1px 0 hsl(0, 100%, 100%);
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tabs-nav li:first-child a {
+    border-right: 0;
+    -moz-border-radius-topleft: 6px;
+    -webkit-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.tabs-nav .tab-active a {
+    background: hsl(0, 100%, 100%);
+    border-bottom-color: hsla(0, 0%, 0%, 0);
+    color: #002a5c;
+    cursor: default;
+}
+.tabs-nav a {
+    background: hsl(120, 11%, 80%);
+    border: 1px solid hsl(210, 6%, 79%);
+    color: hsl(215, 6%, 57%);
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 44px;
+    text-align: center;
+    height: 60px;
+    width: 140px;
+    border-bottom-color: hsl(210, 6%, 79%) !important;
+}
+.tabs-nav li {
+    float: left;
+}
+.tabs-stage {
+    border: 1px solid hsl(210, 6%, 79%);
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    -ms-border-radius: 0 0 6px 6px;
+    -o-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    border-top: 0;
+    clear: both;
+    margin-bottom: 20px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+    background: #fff;
+}
+.tabs-stage p {
+    margin: 0;
+    padding: 20px;
+    color: hsl(0, 0%, 33%);
+}

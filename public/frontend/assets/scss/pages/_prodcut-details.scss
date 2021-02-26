@@ -1,0 +1,172 @@
+.quantity-area{
+  margin-bottom: 20px;
+  span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+
+  }
+  .btn-sm{
+    color: #ffffff;
+  }
+  table{
+    td{
+    border: 1px solid #002A5C !important;
+    padding:6px 20px;
+
+  }
+  td:nth-child(odd){
+    background-color: #002A5C !important;
+    padding:6px 10px;
+    &:hover{
+      background-color:#034594 !important;
+
+    }
+  }
+
+  }
+
+
+}
+.single-prodcut-content{
+  margin-top: 30px;
+    @include breakpoint(md){
+       margin-top: 0px;
+       }
+  .product-name{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.prodcut-size{
+  padding:5px 10px;
+  border:1px solid gray;
+  border-radius: 5px;
+}
+.color-black{
+  font-size: 30px;
+}
+.cart-btn{
+  border:1px solid black;
+  padding:5px 30px;
+  text-transform: uppercase;
+  position: absolute;
+
+}
+.payment-text{
+  margin:0;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 12px;
+}
+.product-desc-area{
+  ul li{
+    list-style-type: disc;
+  }
+}
+
+
+}
+.login-area{
+.classy-nav-container.small-dropdown{
+  z-index: 1;
+  .classynav > ul > li:hover{
+    border-bottom: none;
+  }
+
+ .classynav ul li .dropdown{
+    right: 0;
+  }
+
+}
+
+.small-dropdown .classynav > ul > li > a{
+       @include breakpoint(md){
+       background-color: transparent;
+       }
+}
+
+.classynav ul li.has-down > a::after{
+
+  @include breakpoint(md){
+   padding-left: 173px !important;
+  }
+
+}
+
+.classynav menu, ol, ul{
+  margin:0;
+  padding:5px 0px;
+}
+
+}
+
+.you-may-title{
+  text-align: center !important;
+  font-size: 25px;
+}
+#bannerR{
+  margin:0 !important;
+}
+
+
+.flex-control-nav li img{
+  @include breakpoint(md){
+    height: 130px;
+    margin-right: 81px;
+  }
+  @include breakpoint(sm){
+    height: 130px;
+    margin-right: 96px;
+  }
+}
+
+.small-img{
+  width: 200px;
+}
+
+.cat_br_bg{
+  @include breakpoint(md){
+    margin-top: 15px;
+   }
+   @include breakpoint(sm){
+    margin-right: 0;
+   }
+}
+#exampleFormControlSelect1{
+  @include breakpoint(sm){
+    width:97%;
+   }
+}
+.product-title{
+  @include breakpoint(md){
+    font-size: 12px;
+   }
+}
+
+.w-25{
+  @include breakpoint(sm){
+    width: 60% !important;
+   }
+
+}
+
+.cat_br_bg{
+  margin-bottom: 20px;
+}
+
+.product-desc-area{
+  margin-top: 20px;
+}
+.hr-mb{
+  margin-bottom: 0;
+}
+.flex-viewport {
+
+  border: 1px solid #D1CFCF;
+}
+
+
+

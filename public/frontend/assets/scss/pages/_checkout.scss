@@ -1,0 +1,76 @@
+
+.checkout-logo{
+    height: 80px;
+    display: block;
+      @include breakpoint(sm){
+      margin:0 auto;
+     
+    }
+}
+.address-area{
+      padding: 7px 30px;
+  table tr{
+    border-bottom: 1px solid #707070;
+    padding-bottom: 6px;
+    &:last-child{
+      border-bottom: 0;
+    }
+    td{
+      padding: 10px 0px;
+    }
+  }
+}
+
+.list-group{
+  color: #002B5C;
+  li{
+    padding-left: 30px;
+  }
+}
+
+.verify-with-id{
+  background-color: blue;
+  color: #ffffff;
+  text-align: center;
+  width: 240px;
+  padding:10px 0px;
+     @include breakpoint(sm){
+      margin:0 auto;
+      text-align: center;
+    }
+}
+.top-gap{
+  margin-top: 40px;
+   @include breakpoint(md){
+    margin-top: 0;
+    }
+}
+
+.resp-direction{
+    @include breakpoint(sm){
+    flex-direction: column-reverse;
+    margin-top: 30px;
+    }
+}
+
+.login-area{
+
+
+  .breakpoint-off .classynav ul li .dropdown {
+    top: 100%;
+    left: 32px;
+  }
+
+  .breakpoint-off .classynav ul li:hover .dropdown {
+    top: 100%;
+    left: 32px;
+}
+
+  .classynav > ul > li{
+    border-bottom: 0;
+  }
+  .classynav{
+    padding-top: 0;
+  }
+}
+

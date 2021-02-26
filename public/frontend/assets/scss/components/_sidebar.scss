@@ -1,0 +1,42 @@
+.hr-mb{
+    margin-top: 0;
+}
+.select-cat li a:hover{
+    background-color: #EBEBEB;
+}
+.select-cat li{
+    padding-right: 0;
+    padding:6px 0px !important;
+}
+.select-cat li a, .cat-items{
+    padding-left: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav.select-cat{
+    display: block !important;
+}
+
+.cat-title{
+    padding-left: 30px;
+    
+}  
+.cat-dropdown{
+    background-color: #ffffff;
+    display: block;
+    margin-left: 10px !important;
+  }
+  .cat-dropdown li a{
+    display: block;
+    width: 100%;
+    padding-right: 0;
+
+  }
+  
+  .cat-dropdown li a:hover{
+    color: blue !important;
+    background-color: transparent;
+  }
+  
+  

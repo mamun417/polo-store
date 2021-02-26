@@ -1,0 +1,53 @@
+.section-title{
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  color: #0E0E0E;
+  margin:0 auto;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  
+}
+
+.section-padding{
+  padding:30px 0px;
+    @include breakpoint(md){
+        padding-top: 0;
+       }
+}
+
+  .feature-items_shop{
+      background-color:#102348;
+      text-transform: uppercase;
+      padding:10px 0px;
+      text-align: center;
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 25px;
+      margin:0;
+      margin-top: 5px;
+      &:hover{
+        text-decoration: none;
+        background-color: #103276;
+      }
+    }
+   a{
+     color: #002A5C;
+     
+     &:hover{
+     text-decoration: none;
+     color: #034594;
+    }
+   }
+   
+    .load-more-btn{
+    border-radius: 10px;
+    width: 290px;
+    float: right;
+    }
+
+    .border-right{
+      border-right: 1px solid #707070;
+      
+    }

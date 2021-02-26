@@ -1,0 +1,56 @@
+
+.top-header{
+  background-color: #F2F3F8;
+  padding:10px 10px;
+  text-align: center; 
+  &_title{
+  color:#002A5C ;
+  font-weight: bold;
+  font-size: 19px;
+  max-width: 600px;
+  margin:0 auto;
+  }
+}
+
+.offset-4{
+  @include breakpoint(md){
+   margin-left: 0;
+  }
+}
+.header-logo{
+   @include breakpoint(md){
+   margin:0 auto;
+  }
+}
+
+.fa-angle-down{
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+.login-area{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+    @include breakpoint(sm){
+    margin-top: 15px;
+  }
+
+  .admin-width{
+  margin-right: 10px;
+  display: inline;
+  font-size: 40px;
+
+  }
+}
+.cart-value{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+ 
+
+

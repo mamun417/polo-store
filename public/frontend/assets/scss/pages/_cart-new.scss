@@ -1,0 +1,142 @@
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+   
+    .section-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #0E0E0E;
+    text-transform: uppercase;
+    margin:0;
+
+    h5{
+      margin:0;
+      padding:10px;
+      font-size: 20px;
+     text-align: left;
+     text-transform: capitalize;
+    }
+    }
+    .card-header{
+      background-color: #fff;
+    }
+}
+.card, .checkbox-card {
+    padding: 0;
+}
+.card .checkbox-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+}
+#cart .cart-table-area .section-title{
+  margin-top: 0;
+    border-bottom: 1px solid #d9ddd9;
+    text-align: left;
+}
+#cart .section-title h5{
+  position: relative; 
+    display: inline-block;
+    font-weight: 700;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+
+    .table td, .table th {
+      vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+}
+#cart .table td{
+  padding: 15px 0px;
+}
+.item-thumbnail{
+  img{
+  height: 50px;
+  width: 90px;
+   margin:0 auto;
+}
+} 
+.cart-detail{
+  padding:15px 0px;
+  .product-title{
+    padding:0;
+    margin:0;
+  }
+  .product-subtitle{
+    padding:0;
+    margin:0;
+    margin-top: 10px;
+  }
+}
+
+.cart-item-list-area{
+.total-header-section {
+    border-bottom: 1px solid #d2d2d2;
+    display: flex;
+    text-align: center;
+    padding-bottom: 10px;
+    .total-amount{
+      margin: 0;
+      padding: 0;
+    }
+}
+ .dropdown-menu {
+   position: absolute;
+   left: 100px;
+   top: 100px;
+    padding: 15px;
+    width: 350px!important;
+
+      @include breakpoint(lg){
+        left: 0;
+      }
+      @include breakpoint(md){
+          left: -130px; 
+          top: 205px;
+      }
+        @include breakpoint(sm){
+          left: 20px;
+          top: 245px;
+          position: fixed;
+      }
+  
+
+  
+}
+.modal-cart-img{
+  height: 40px;
+  width: 40px;
+}
+.product-name{
+  margin:0;
+  padding: 0;
+}
+.btn{
+  padding:1px 8px;
+}
+.cart-btn{
+  float: right;
+}
+
+}
+
+.total-cart-modal{
+  .modal{
+    top: -15px;
+    right: -350px;
+    left:auto;
+    padding-right: 10px;
+  }
+  .modal-dialog{
+    pointer-events: auto;
+  }
+}

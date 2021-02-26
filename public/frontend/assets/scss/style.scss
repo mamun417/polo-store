@@ -1,0 +1,51 @@
+
+
+
+@import 'base/base';
+
+//Utils
+@import 'utils/functions'; 
+@import 'utils/mixins';
+@import 'utils/variable';
+
+//Vendors 
+@import 'vendors/bootstrap.min';
+@import 'vendors/classy-nav';
+@import 'vendors/normalize';
+@import 'vendors/animate';
+@import 'vendors/owl-carousel';
+@import 'vendors/flexslider';
+
+//Themes
+@import 'themes/black';
+@import 'themes/blue';
+@import 'themes/gray';
+@import 'themes/white';
+
+//Layout
+@import 'layout/forms';
+@import 'layout/grid';
+@import 'layout/responsive'; 
+
+//Components
+@import 'components/buttons'; 
+@import 'components/header';
+@import 'components/nav';
+@import 'components/footer';
+@import 'components/sidebar';
+@import 'components/mega-menu';
+@import 'components/preloader';
+@import 'components/common';
+@import 'components/modal';
+
+
+//Pages
+@import 'pages/contact';
+@import 'pages/home'; 
+@import 'pages/product'; 
+@import 'pages/prodcut-details'; 
+@import 'pages/payment';   
+@import 'pages/cart';   
+@import 'pages/checkout';   
+@import 'pages/cart-new';   
+
