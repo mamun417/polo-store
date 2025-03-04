@@ -17,8 +17,8 @@ class SlidersSeeder extends Seeder
     {
         $faker = Factory::create();
         Slider::factory()->count(10)->create()->each(function (Slider $slider) use($faker){
-                $slider->image()->create([
-                    'url' => $faker->imageUrl(1200,400)
+            $slider->image()->create([
+                    'url' => str_replace("via.placeholder", "dummyimage", $faker->imageUrl(1200,400))
                 ]);
         });
     }

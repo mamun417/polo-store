@@ -19,8 +19,11 @@ class SettingSeeder extends Seeder
         Setting::factory()->count(20)->create()->each(function (Setting $setting) use ($faker) {
             $image_type = ['logo', 'footer_logo'];
             for ($i = 0; $i <= 1; $i++) {
+
+                $image_path = str_replace("via.placeholder", "dummyimage", $faker->imageUrl(410, 104));
+
                 $setting->image()->create([
-                    'url' => $faker->imageUrl(410, 104),
+                    'url' => $image_path,
                     'type' => $image_type[$i],
                 ]);
             }
